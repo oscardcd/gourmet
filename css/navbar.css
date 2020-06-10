@@ -4,6 +4,15 @@
 }
 
 .nav-pills{
+    
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+.nav-item{
+   
+}
+
+a{
+    text-decoration: none;
 }
