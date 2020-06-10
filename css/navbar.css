@@ -1,6 +1,9 @@
 .navegador{
     display: grid;
-    
+   
+}
+#iconm{
+    display: none;
 }
 
 .nav-pills{
@@ -9,10 +12,42 @@
     grid-template-columns: auto auto auto auto auto auto auto;
 }
 
-.nav-item{
-   
-}
-
 a{
     text-decoration: none;
+}
+.nav-item{
+    padding: 0%;
+}
+
+@media all and (max-width: 900px) and (min-width: 200px) {
+   header,
+   .navegador{
+       border-radius: 10px;
+       background-color: wheat;
+       height:auto;
+      
+   }
+   #iconm{
+      
+    width: 40px;
+    display: inline-flex;
+   margin-left: 20px;
+   margin-top: 20px; 
+   }
+   label{
+    margin-left: 20px; 
+   }
+    .nav-pills {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto ;
+    
+    
+    }
+    .nav-item{
+        margin: 10px 0px 0px 0px;
+        display: grid;
+        border-bottom:3px solid rgb(206, 138, 206);
+    }
 }
