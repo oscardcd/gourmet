@@ -16,13 +16,24 @@
 .comida {
     margin: 50px auto;
     margin-left: 280px;
-    margin-top: 90px;
+    margin-top: 70px;
+    text-align: center;
 }
 
 .comida div p {
-    margin-right: 340px;
+    margin-left: 10px;
     margin-top: 30px;
-    text-align: center;
+}
+
+.comida div h2 {
+    margin-left: 10px;
+    margin-bottom: 30px;
+   
+}
+
+.comida div img {
+    border-radius: 25%;
+    border: 5px solid #444444;
 }
 
 .navegacionCarta ul {
@@ -84,9 +95,89 @@
 /* IMAGEN */
 
 #pasta1 {
-    display: none;
+    display: block;
 }
 
 #pasta2 {
     display: none;
+}
+
+#pasta3 {
+    display: none;
+}
+
+#pasta4 {
+    display: none;
+}
+
+#pasta5 {
+    display: none;
+}
+
+#pizza1 {
+    display: none;
+}
+
+#pizza2 {
+    display: none;
+}
+
+#pizza3 {
+    display: none;
+}
+
+#pizza4 {
+    display: none;
+}
+
+#pizza5 {
+    display: none;
+}
+
+#risotto1 {
+    display: none;
+}
+
+#risotto2 {
+    display: none;
+}
+
+#risotto3 {
+    display: none;
+}
+
+#ensalada1 {
+    display: none;
+}
+
+#ensalada2 {
+    display: none;
+}
+
+#bebida1 {
+    display: none;
+}
+
+#bebida2 {
+    display: none;
+}
+
+#bebida3 {
+    display: none;
+}
+
+#bebida4 {
+    display: none;
+}
+
+#postre1 {
+    display: none;
+}
+
+#postre2 {
+    display: none;
+}
+
+#contenedorMain {
+    background: #e0e0e0;
 }
