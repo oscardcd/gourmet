@@ -571,7 +571,7 @@ $(document).ready(function () {
             $("#bebida1").css("display", "none");
             $("#bebida2").css("display", "none");
             $("#bebida3").css("display", "none");
-            $("#bebida3").css("display", "none");
+            $("#bebida4").css("display", "none");
             $("#ensalada1").css("display", "none");
             $("#ensalada2").css("display", "none");
             $("#risotto1").css("display", "none");
