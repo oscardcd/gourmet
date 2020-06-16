@@ -9,3 +9,8 @@ function loadScript(url)
 $(document).ready( function() {
        loadScript("../javascript/navbar.js");
 });
+
+
+$(document).ready( function() {
+       loadScript("../javascript/carta.js");
+});
