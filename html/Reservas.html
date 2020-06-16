@@ -3,70 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GOURMET</title>
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="../javascritp/navbar.js"></script>
-    <link rel="stylesheet" href="../css/base.css">
+    <title>GOURMET</title>
+    <link rel="stylesheet" href="../css/reservas.css">
     <link rel="shortcut icon" href="../Galeria/icon1.png" type="image/x-icon">
+<<<<<<< HEAD
     <script src="../javascript/base.js"></script>
+=======
+    <script src="../javascritp/navbar.js"></script>
+>>>>>>> d57f3855fe29c89d27ff2417ce7a329825ff39f6
 </head>
 <body>
     <header>
         <div class="navegador" id="navegador">
-
+           
         </div>
-       
     </header>
     <main>
         <section>
             <h1>Reserva tu mesa aquí</h1>
         </section>
-        <section>
-        <form>
-            <div>
-                <label>Elige tu mesa:
-                    <input type="text" list="numeromesa" name="numeromesa">
-                </label>
-                <datalist id="numeromesa">
-                    <option value="01">
-                    <option value="02">
-                    <option value="03">
-                    <option value="04">
-                    <option value="05">
-                  </datalist>
-            </div>
-            <div>
-                <label>Fecha: 
-                    <input type="date">
-                </label>
-            </div>
-            <div>
-                <label>Hora: 
-                    <input type="time">
-                </label>
-            </div>
-            <div>
-                <label>Nombres y Apellidos:
-                    <input type="text"> 
-                </label>
-            </div>
-            <div>
-                <label>Correo electronico:
-                    <input type="email"> 
-                </label>
-            </div>
-            <div>
-                <label>Telefono:
-                    <input type="tel"> 
-                </label>
-            </div>
-            <input type="submit" value="Solicitar Reserva">
-        </form>
+        <section class="reservarmesa">
+            <form class="reservar">
+                <div class="contenedorinputs">
+                    <label>Elige tu mesa:
+                        <input class="opcion" type="text" list="numeromesa" name="numeromesa" required>
+                    </label>
+                    <datalist id="numeromesa">
+                        <option value="01">
+                        <option value="02">
+                        <option value="03">
+                        <option value="04">
+                        <option value="05">
+                      </datalist>
+                
+                    <label>Fecha: 
+                        <input class="opcion" type="date" required>
+                    </label>
+               
+                    <label>Hora: 
+                        <input class="opcion" type="time" required>
+                    </label>
+       
+            <label>Nombres y Apellidos:
+                <input class="opcion" type="text" required> 
+            </label>
+       
+            <label>Correo electronico:
+                <input class="opcion" type="email" required> 
+            </label>
+        
+       
+            <label>Telefono:
+                <input class="opcion" type="tel" required> 
+            </label>
+       
+        <input class="boton" type="submit" value="Solicitar Reserva">
+                </div>
+    </form>
         </section>
         <section>
-            <h2>Reservas para Eventos</h2>
-            <img src="../Galeria/img3.jpg" alt="">
-            <h3> Para reservar salón privado o para más de 10 comensales llamar al 3211352356 o escríbenos a Ejemplo@email.com</h3>
+            <h2>Para reservar salón privado o para más de 10 comensales llamar al 32201020124 o escríbenos a GOURMET@email.com</h2>        
         </section>
     </main>
     <footer>

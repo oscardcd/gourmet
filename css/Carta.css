@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorCarta {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navegacionCarta {
+    height: 450px;
+    margin: 50px 0px 0px 150px;
+}
+
+.comida {
+    margin: 50px auto;
+    margin-left: 280px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.comida div p {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.comida div h2 {
+    margin-left: 10px;
+    margin-bottom: 30px;
+   
+}
+
+.comida div img {
+    border-radius: 25%;
+    border: 5px solid #444444;
+}
+
+.navegacionCarta ul {
+    list-style: none;
+}
+
+.carta>li {
+    padding: 10px;
+    position: relative;
+    width: 150px;
+    background: #929090;
+    border-top: 1px solid #fffbfb;
+    border-right: 7px solid #444444;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3;
+    transition: all 0.3s;
+}
+
+.carta li:hover {
+    background-color: #757373;
+}
+
+.carta>li>a {
+    display: block;
+    padding: 15px 40px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.carta li a:hover {
+    color: #444444;
+    transition: all .3s;
+}
+
+.subCarta {
+    position: absolute;
+    background: #929090;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s;
+    left: 104%;
+    top: -1%;
+}
+
+.subCarta li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.carta li:hover .subCarta {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* IMAGEN */
+
+#pasta1 {
+    display: block;
+}
+
+#pasta2 {
+    display: none;
+}
+
+#pasta3 {
+    display: none;
+}
+
+#pasta4 {
+    display: none;
+}
+
+#pasta5 {
+    display: none;
+}
+
+#pizza1 {
+    display: none;
+}
+
+#pizza2 {
+    display: none;
+}
+
+#pizza3 {
+    display: none;
+}
+
+#pizza4 {
+    display: none;
+}
+
+#pizza5 {
+    display: none;
+}
+
+#risotto1 {
+    display: none;
+}
+
+#risotto2 {
+    display: none;
+}
+
+#risotto3 {
+    display: none;
+}
+
+#ensalada1 {
+    display: none;
+}
+
+#ensalada2 {
+    display: none;
+}
+
+#bebida1 {
+    display: none;
+}
+
+#bebida2 {
+    display: none;
+}
+
+#bebida3 {
+    display: none;
+}
+
+#bebida4 {
+    display: none;
+}
+
+#postre1 {
+    display: none;
+}
+
+#postre2 {
+    display: none;
+}
+
+main {
+    background: #ebebeb;
+}
+
+#titulo {
+    display: flex;
+    text-align: center;
+    background: #444444;
+    color: #fff;
+    padding: 30px 0 30px 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 5px solid #757373;
+    border: 5px solid #757373;
+}
+
+footer {
+    background: #444444;
+    color: #fff;
+    padding: 30px 0 15px 0;
+    margin: auto;
+    overflow: hidden;
+    border-top: 5px solid #757373;
+}
+
+.contenedorfooter {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.contenidofooter {
+    text-align: center;
+}
+
+.contenidofooter h4 {
+    color: #fff;
+    border-bottom: 3px solid #999797;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
