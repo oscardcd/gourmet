@@ -2,7 +2,10 @@
     display: grid;
    
 }
-#iconm{
+.iconm{
+    display: none;
+}
+ul>div>label{
     display: none;
 }
 
@@ -26,15 +29,27 @@ a{
        background-color: wheat;
        height:auto;
       
+      
    }
-   #iconm{
+  
+   .iconm{
       
     width: 40px;
     display: inline-flex;
    margin-left: 20px;
    margin-top: 20px; 
+   
+   }
+   .iconmO{
+    width: 40px;
+    display: inline-flex;
+   margin-left: 20px;
+   margin-top: 20px; 
+    width: 60px;
+
    }
    label{
+       display: flex;
     margin-left: 20px; 
    }
     .nav-pills {
@@ -42,6 +57,7 @@ a{
     margin: 0;
     display: grid;
     grid-template-columns: auto ;
+    
     
     
     }

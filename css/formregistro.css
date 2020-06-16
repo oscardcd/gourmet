@@ -1,0 +1,25 @@
+.cuerpof{
+   
+    width: auto;
+    height: auto;
+    display: grid;
+}
+
+.formregistro{
+    margin-left: 40%;
+    text-align: center;
+    width: 400px;
+   
+}
+
+button{
+    margin-top: 10px;
+}
+
+@media all and (max-width: 900px) and (min-width: 200px) {
+
+.formregistro{
+    margin-left: 10%;
+}
+}
+

@@ -1,1 +1,7 @@
 @import url(navbar.css);
+@import url(formregistro.css);
+
+.contenedor{
+    margin: 0;
+    padding: 0;
+}

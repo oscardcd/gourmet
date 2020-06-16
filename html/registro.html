@@ -1,49 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=0,maximum-scale=1,user-scalable=no">
     <title>GOURMET</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
     <link rel="stylesheet" href="../css/base.css">
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
     <link rel="shortcut icon" href="../galeria/imagenes/icon1.png" type="image/x-icon">
-    <script src="../javascritp/navbar.js"></script></head>
+    <script src="../javascript/base.js"></script>
+</head>
+
 <body>
     <div class="contenedor">
         <div class="navegador" id="navegador">
-           
+
         </div>
-        <div class="forregistro">
-            <div class="titulo">
-                <h1>formulario de registro</h1>
+        <div class="cuerpof">
+            <div class="formregistro">
+                <div class="titulo">
+                    <h1>formulario de registro</h1>
+                </div>
+                <form>
+                    <div class="row">
+                        <div class="col"><label for="nombre">Nombre</label></div>
+                        <div class="col"><input type="text" id="nombre" placeholder="ingrese nombre"></div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col"><label for="apellidos">Apellidos</label></div>
+                        <div class="col"><input type="text" name="" id="apellido" placeholder="1er apellido"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col"><label for="email">Email</label></div>
+                        <div class="col"><input type="email" name="" id="email" placeholder="email"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col"><label for="email2">Confirme Correo</label></div>
+                        <div class="col"> <input type="email" placeholder="ingrese nuevamente correo" id="email2"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col"> <label for="contraseña">Contraseña</label></div>
+                        <div class="col"> <input type="password" placeholder="contraseña" id="password"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col"> <input type="button" value="Registrarse"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col"> <a href="index.html">
+                            <p>Volver al inicio</p>
+                        </a></div>
+                    </div>
+
             </div>
-            <div class="cuerpo">
-                <div class="item">
-                    <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre">
-                </div>
-                <div class="item">
-                    <label for="apellidos">Apellidos</label>
-                    <input type="text">
-                </div>
-                <div class="item">
-                    <label for="email">Correo</label>
-                    <input type="email">
-                </div>
-                <div class="item">
-                    <label for="email2">Confirme Correo</label>
-                    <input type="email" id="email2">
-                </div>
-                <div class="item">
-                    <label for="contraseña">Contraseña</label>
-                    <input type="password" id="password">
-                </div>
-                <div class="item">
-                    <input type="button" value="Registrarse">
-                    <a href="index.html"><p>Volver al inicio</p></a>
-                </div>
-            </div>
+            </form>
         </div>
     </div>
+    </div>
 </body>
+
 </html>
