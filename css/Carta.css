@@ -192,7 +192,7 @@ main {
     justify-content: center;
     flex-direction: column;
     border-bottom: 5px solid #757373;
-    border-top: 5px solid #757373;
+    border: 5px solid #757373;
 }
 
 footer {
