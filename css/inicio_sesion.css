@@ -1,0 +1,46 @@
+
+.contenedoris{
+    
+    
+    display: grid;
+    grid-template-areas: "nada login nada";
+}
+
+.login{
+    grid-area: login;
+    text-align: center;
+    opacity: 0.9;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    margin-top: 25px;
+}
+.cuerpo{
+    display: grid;
+    grid-template-areas: "col col1"
+}
+
+.email{
+    grid-area: col;
+    margin: 10px 10px 10px 10px;
+}
+
+.contrasena{
+    grid-area: col1;
+    margin: 10px 10px 10px 10px;
+}
+
+label{
+    font-size: 25px;
+}
+
+div>input{
+    background:  #274046; 
+    border: none;
+    height: 28px;
+  border-bottom: 2px solid red;
+}
+
+
+
+
