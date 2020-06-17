@@ -254,4 +254,12 @@ footer {
         width: 90%;
         height: 90%;
     }
+
+    .contenidofooter p {
+        font-size: 85%;
+    }
+
+    .contenidofooter {
+        margin-right: 1%;
+    }
 }
