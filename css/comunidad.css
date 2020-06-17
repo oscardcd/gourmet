@@ -16,7 +16,7 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 5px solid #757373;
+    border: 8px solid #757373;
 }
 
  main > section {
@@ -68,6 +68,8 @@ main {
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .8);
     background-color: rgb(100, 100, 100);
     background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .seccion2 > p {
@@ -127,6 +129,8 @@ main {
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
     background-color: rgb(100, 100, 100);
     background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .seccion4 > p {
@@ -175,4 +179,34 @@ main {
 .cliente5 > .cliente05 p {
     font-size: 20px;
     padding-top: 10px;
+}
+
+@media all and (max-width: 900px) and (min-width: 200px) {
+
+    .cliente5 img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .cliente1 img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .cliente3 img {
+        width: 120px;
+        height: 120px;
+
+    }
+
+    .seccion4 {
+        height: 450px;
+        background-size: 100% 100%;
+    }
+
+    .seccion2 {
+        height: 450px;
+        background-size: 100% 100%;
+    }
+
 }

@@ -3,19 +3,20 @@
     padding: 0;
 }
 
-main > section {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.reservarmesa {
-    box-sizing: border-box;
-    margin: 0;
+.titulo {
+    display: flex;
+    text-align: center;
+    background: #444444;
+    color: #fff;
+    padding: 30px 0 30px 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 8px solid #757373;
 }
 
 .reservar {
-    width: 600px;
-    max-width: 500px;
+    width: 500px;
     margin: 0px auto;
     border-radius: 5px;
     background: #444444;
@@ -56,21 +57,40 @@ input {
     background-image: url(../galeria/imagenes/img3.jpg);
     background-color: rgb(100, 100, 100);
     background-blend-mode: soft-light;
-    height: 600px;
+    height: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-/*
-.reservarevento > h2 {
-    display: flex;
-    height: 500px;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    color: #fff;
-    font-size: 40px;
+
+@media all and (max-width: 900px) and (min-width: 200px) {
+
+    .reservar {
+        width: 60%;
+        height: 100%;
+        padding: 5px;
+    }
+
+    .contenedorinputs {
+        padding: 0px 5px;
+        font-size: 90%;
+    }
+
+    .opcion {
+        width: 90%;
+        margin-left: 10%;
+    }
+
+    .opcion1 {
+        width: 40%;
+    }
+
+    label {
+        margin-left: 10%;
+    }
+
+    .reservarmesa {
+        background-size: 100% 100%;
+    }
 }
