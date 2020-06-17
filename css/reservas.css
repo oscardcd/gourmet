@@ -8,6 +8,10 @@ main > section {
     margin-bottom: 50px;
 }
 
+section>h1{
+    text-align: center;
+}
+
 .reservarmesa {
     box-sizing: border-box;
     margin: 0;

@@ -1,15 +1,39 @@
-.cuerpof{
-   
-    width: auto;
-    height: auto;
-    display: grid;
-}
 
 .formregistro{
+    background-color: #C0C08B;
     margin-left: 40%;
     text-align: center;
     width: 400px;
+    border-radius: 25px;
+    border:5px solid grey;
+    margin-top: 25px;
+                         
    
+}
+.row{
+    display: grid;
+    grid-template-areas: "col col1";
+}
+.col{
+    grid-area: col;
+    text-align: left;
+    margin-left: 5px;
+    width: 150px;
+}
+.col>label{
+    font-size:24px;
+    font-family: sans-serif;
+}
+.col1{
+    
+    grid-area: col1;
+    text-align: left;
+}
+.col1>input{
+    height: 25px;
+    margin-top: 5px;
+    border:4px grey thin;
+    border-radius: 8px;
 }
 
 button{
