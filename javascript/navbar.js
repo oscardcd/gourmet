@@ -3,13 +3,8 @@ $(document).ready( function() {
    });
 
   
-  $(documen).ready(function(){
-
-        $( "#iconm" ).click(function() {
-                $( "#navegador" ).fadeIn( "slow", function() {
-                  // Animation complete
-                });
-              });
+  $(document).ready(function(){
+    $("#footer").load("footer.html");
   });
 
  

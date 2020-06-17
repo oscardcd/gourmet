@@ -15,6 +15,20 @@
     border: 8px solid #757373;
 }
 
+main > section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+section>h1{
+    text-align: center;
+}
+
+.reservarmesa {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 .reservar {
     width: 500px;
     margin: 0px auto;
